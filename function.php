@@ -17,7 +17,3 @@ class TestingFunction
 $obj = new TestingFunction();
 $obj->NoparaNoReturn();
 echo $obj->ParameterReturn();
-
-
-
-?>
