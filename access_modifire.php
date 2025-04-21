@@ -1,5 +1,4 @@
 <?php
-
 class AccessModifire {
 
     public function privateMethoud() {
@@ -15,6 +14,4 @@ class ChildAccessModifire extends AccessModifire {
 
 $obj = new ChildAccessModifire();
 $obj->accessprivetmethoud();
-
-
 ?>
