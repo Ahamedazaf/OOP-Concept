@@ -1,17 +1,20 @@
 <?php
-class AccessModifire {
+class AccessModifire
+{
 
-    public function privateMethoud() {
+    public function privateMethoud()
+    {
         echo "Hello";
     }
 }
 
-class ChildAccessModifire extends AccessModifire {
-    public function accessprivetmethoud() {
-        $this->privateMethoud(); 
+class ChildAccessModifire extends AccessModifire
+{
+    public function accessprivetmethoud()
+    {
+        $this->privateMethoud();
     }
 }
 
 $obj = new ChildAccessModifire();
 $obj->accessprivetmethoud();
-?>

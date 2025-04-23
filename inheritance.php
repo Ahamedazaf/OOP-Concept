@@ -20,7 +20,7 @@ class Ahamed extends Father
 
 
 $Ahamed = new Ahamed();
-$Ahamed->Fatherbihavior(); 
+$Ahamed->Fatherbihavior();
 
 
 
@@ -33,7 +33,7 @@ class Mohamed
     }
 }
 
-class John 
+class John
 {
     public function bihavior()
     {
@@ -41,4 +41,4 @@ class John
     }
 }
 $John = new John();
-$John->bihavior(); 
+$John->bihavior();
