@@ -7,6 +7,7 @@ class Father
     {
         echo ("I have uniq Behavior<br>");
     }
+    //jhbj
 }
 
 // Childrens
